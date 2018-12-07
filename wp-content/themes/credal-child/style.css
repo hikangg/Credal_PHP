@@ -1,0 +1,349 @@
+/*
+ Theme Name:   CredalAG Child Theme
+ Theme URI:    #
+ Description:  Credal AG
+ Author:       Dreams Group
+ Author URI:   http://thedreamsteps.com
+ Template:     credal
+ Version:      1.0.25
+ Text Domain:  credal-child
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,900');
+
+body {font-family: 'Roboto', sans-serif !important;}
+h1, h2, h3, h4, h5, h6 { letter-spacing:0;}
+a, p { letter-spacing:0;}
+.logo a img {max-height: none; background-color: transparent; width:160px;}
+.site-header.credal-sticky-header { position:fixed; top:0; width:100%; z-index:9999; transition:height .4s ease, opacity .3s ease; background:rgba(255,255,255,0.9);}
+.credal-sticky-header .site-branding img {width: 100px; transition:all 0.3s linear 0s; padding: 10px 0 10px 0;}
+header .navbar-default { background-color: transparent; border-color: transparent;}
+header .navbar { margin-bottom:0; z-index:999;} 
+.site-branding img {padding: 15px 0 0 0; border-radius: 5px; margin-top: 0 !important; width: 440px; transition:all 0.3s linear 0s;}
+header.credal-sticky-header ul.nav.navbar-nav { margin-top:-5px;}
+header ul#primary-menu { margin-top:60px; transition:height .4s ease, opacity .3s ease;}
+.credal-sticky-header  ul#primary-menu { margin-top:40px; transition:height .4s ease, opacity .3s ease;}
+header .primary-menu .navbar-nav>li>a {  border-bottom:none; text-transform: none; font-weight: 300; color: #000 !important; font-size: 17px; padding-left: 10px; padding-right: 10px; background-color: transparent !important; padding-top: 0; padding-bottom: 0;  border-right: 1px solid #6FCBDA !important; line-height: 15px;}
+header .primary-menu .navbar-nav>li:last-child>a { border-right:none !important;}
+header .primary-menu .navbar-nav>li.current-menu-item>a { color:#6FCBDA !important;}
+header .primary-menu .navbar-nav>li>a:after { display:none;}
+.site-content .content-area { margin-bottom:0;}
+footer.entry-footer .edit-link { display:none;}
+header.site-header { background-color: transparent; transition:height .4s ease, opacity .3s ease;}
+.site-header.header-fixed { box-shadow:none !important;}
+body .container-fluid { max-width:87%;}
+.justify-text { text-align:justify; }
+.intro-text p {font-size: 22px; color: #555; line-height: 35px; font-weight:200;}
+
+.home-slides { padding-top:55px !important; padding-bottom:50px; background-position: center top !important; background-size:100%  auto !important;}
+h2.vc_custom_heading {font-size: 90px; line-height: 110px; font-weight: 700; letter-spacing: -4px;}
+p.vc_custom_heading {font-size: 26px; font-weight: 200; line-height: 36px;}
+h5.vc_custom_heading {font-size: 38px; font-weight: 200; line-height: 50px;}
+.vc_btn3-container .vc_general {background-color: transparent !important; background-image: none !important;border: 2px solid !important;padding: 3px 25px; font-size: 32px; font-weight: 200;}
+.vc_btn3-container .vc_general:hover { border:2px solid !important;}  
+.home-slides .vc_btn3-container .vc_general { color:#888 !important;}
+.home-intro .vc_btn3-container .vc_general { color:#fff !important;}
+.vc_btn3-container { margin-top:15px;}
+.center-align { text-align:center;}
+
+.home-intro {background-position: center !important; background-size:cover !important;}
+body .services-box .vc_gitem-zone.vc_gitem-zone-c { background-color: transparent !important; position: relative; width: 100%; margin-top: -145px; margin-bottom: 0; padding:15px 25px;}
+.services-box .vc_gitem-zone .vc_gitem-post-data-source-post_title { margin-bottom:0 !important;}
+.services-box .vc_gitem-zone .vc_gitem-post-data-source-post_title h4 {color: #fff; font-size: 38px; line-height: 42px; margin-bottom:0;}
+.services-box .vc_gitem-zone .vc_gitem-post-data-source-post_title h4 a:after { position:absolute; content:""; background-image:url(images/arrow_icon.png); background-repeat:no-repeat; background-size:21px auto; background-position:center; width:30px; height:30px; line-height:30px; margin-left: 12px;margin-top: 9px;}
+.services-box .vc_gitem-zone .vc_gitem-post-data-source-post_excerpt p {color: #fff; font-weight: 200; font-size: 22px; line-height: 28px;}
+
+.vc_gitem-animated-block .vc_gitem-zone:before { padding-top:53%;}
+body .vc_grid.vc_grid-owl-theme .vc_grid-owl-dots.vc_grid-round_fill_square_dots .vc_grid-owl-dot span { width:80px; height:3px; border-radius:0;}
+
+.automated-area {background-position: center !important; background-size:cover !important; margin-top:45px;}
+.automated-area .vc_btn3-container .vc_general { color:#fff !important;}
+h3.vc_custom_heading {font-size: 100px; font-weight: 900; }
+
+.credal-advisors {background-color: #F0F0F0;  padding: 35px 0 70px 0; background-image:url(images/advisor_after.png); background-repeat:no-repeat; background-size:contain; background-position:right top;}
+.credal_heading { color: #444; font-weight: 200; font-size: 72px; line-height: 75px;}
+h4.vc_custom_heading { font-weight: 200; font-size: 72px; line-height: 75px;}
+.board-of-directors h4.vc_custom_heading { font-weight: 200; font-size: 55px; line-height: 65px;}
+.advisors_list .block_title {font-weight: 200; font-size: 30px; color: #000; margin-top:10px;}
+.advisors_list .block_content p {font-weight: 200; font-size: 22px; color:#000; line-height:28px;}
+.advisors_list { margin-top:10px; padding-left:15px; padding-right:15px;}
+.credal-news {padding: 5px 0 50px 0;}
+.news_list { margin-top:25px;}
+.news-category ul { padding-left:0; padding-top: 20px; margin-bottom: 0;}
+.news-category ul li { list-style:outside none none;}
+.news-category ul li a { color:#4FA7B5; font-weight:300; font-size:25px;}
+.news_list .block_title { font-size:22px; line-height:27px; font-weight:200; text-decoration:none; margin-top:25px; color:#666;}
+.news_list .block_title a { color:#666;}
+.news_list .block_title a:hover { text-decoration:none; color:#000;}
+.news_list .aop_block img { width:100%; border: 1px solid #ddd; padding: 7px;}
+
+.footer-bottom { background-color:#000; padding:20px 0;}
+.footer-nav { padding-left:0 !important; padding-right:0 !important;}
+.footer-nav ul { padding-left:0;}
+.footer-nav ul li { display:inline-block; margin-right:20px;}
+.footer-nav ul li a {font-weight: 300; font-size: 16px;}
+.footer-nav ul li:last-child { margin-right:0;}
+.footer-nav { margin-top:40px;}
+.footer-logo img { width:100px;}
+.site-social { text-align:right; margin-top:32px;}
+.site-social ul { padding-left:0;}
+.site-social ul li { display:inline-block; margin-right:10px; text-align:center;}
+.site-social ul li i { width: 35px; height: 35px; line-height: 35px; background-color: #fff; border-radius:50%; color:#000; font-size: 20px;}
+
+section.about-us .vc_col-sm-5 .vc_single_image-wrapper img { margin-top:22px;}
+.core-capabilities ul { padding-left:0; margin-top: -15px;}
+.core-capabilities ul li { list-style:outside none none; font-weight: 200; font-size: 20px; color: #000; padding-left:35px;}
+.core-capabilities ul li:before { content:""; position:absolute; width:25px; height:2px; background-color:#818181; margin-left: -38px; margin-top: 10px;}
+div.vc_custom_heading {font-size: 110px; font-weight: 200; line-height:1;}
+.wpb_text_column p {font-size: 26px; font-weight: 200; line-height: 36px; color: #000;}
+span.play_demo {font-size: 26px; font-weight: 200; line-height: 36px; color: #fff; margin-left:20px;}
+.wpb_text_column.custom_para p {font-size: 24px; line-height: 30px;}
+.wpb_text_column.custom_para1 p {font-size: 20px; line-height: 25px;}
+.margin-top-60 { margin-top:40px !important;}
+h6.vc_custom_heading {font-size: 26px; }
+.contact-address .wpb_column > .vc_column-inner > .wpb_wrapper { border-top:1px solid #53D1E6; padding-top:5px;}
+.modal { z-index:999999999 !important;}
+.modal .modal-dialog { margin-top:135px;}
+input[type="text"], input[type="email"], textarea { border:1px solid #ddd !important; font-weight:200; font-size:17px; color:#000 !important; margin-bottom: 10px;}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {border:1px solid #53D1E6 !important;}
+input[type="submit"] { font-weight:200; border-radius:0 !important; border:2px solid #53D1E6; padding:10px 25px; font-size:20px; color:#53D1E6; background-color: transparent;}
+input[type="submit"]:hover { color:#fff; background-color: #53D1E6;}
+.modal-content { border-radius:0 !important; border:none !important;}
+body .modal-footer .btn { border-radius:0;}
+body .wpcf7-response-output {margin-left: 0; padding-left: 0; border: none;}
+body .wpcf7-not-valid-tip { font-weight:200; font-size:15px;}
+.enquiry-popup .btn.enquiry-btn {border-radius:0 !important; border:2px solid #53D1E6; padding:15px 65px; font-size:20px; color:#53D1E6; background-color: transparent;}
+.enquiry-popup .btn.enquiry-btn:hover { color:#fff; background-color: #53D1E6;}
+
+.single-service { margin-top:55px;}
+.all_services_list { margin-top:35px;}
+.all_services_list .block_title { font-size:32px; line-height:40px; font-weight:200;     margin-top: 10px; margin-bottom: 45px;}
+.all_services_list .block_title a {color:#333;}
+.all_services_list .block_title a:hover { text-decoration: none;}
+.all_services_list .aop_block img { width:100%;}
+.single_service_thumb { width:100%;}
+.service_content p {font-size: 28px; font-weight: 200; line-height: 38px; color: #000;}
+.service_page_content { margin-top:-20px;}
+.service_content { margin-top:30px;}
+.block_summary { font-size:18px; font-weight:200; color:#000; line-height:22px;}
+.block_summary p { font-size:18px; font-weight:200; color:#000; line-height:22px;}
+.single_service_blocks { margin-top:25px;}
+.single_service_blocks .col-md-6 h6 { border-top:2px solid #53D1E6; padding-top:5px;}
+.catalogue_file { margin-top:65px;}
+.catalogue_file a {font-size: 22px; line-height:30px; border:2px solid; color:#1FCBDA; padding:12px 55px; font-weight:300;}
+.catalogue_file a:hover { text-decoration:none;}
+
+footer .credal-advisors { display:none;}
+.services-box .vc_gitem-post-data-source-post_excerpt { visibility:hidden;}
+.single_service_blocks .col-md-6 { margin-bottom:25px;}
+/*.what-we-do-blocks .vc_col-sm-6 .wpb_single_image { margin-bottom:0 !important;}
+.wwd-content > .vc_column-inner > .wpb_wrapper { width:75%; margin:0 auto; padding-left:20px; padding-right:20px;}*/
+body .wwd-content .vc_btn3-container .vc_general {padding: 8px 15px !important; font-size: 18px !important;}
+.wwd-content h4.vc_custom_heading { margin-bottom:25px;}
+
+.product_features .vc_col-sm-6 h6 { border-top:2px solid #53D1E6; padding-top:5px;}
+
+body.single-post .site-content .site-main .comments-area { display:none;}
+.news_thumb_wrap { overflow:hidden; box-shadow:0px 0px 4px #aaa;}
+.board-of-directors { margin-top:0 !important;}
+.board-of-directors > .vc_row { margin-bottom:45px !important;}
+.board-of-directors .wpb_text_column.custom_para1 p { font-weight:300; color:#777 !important;}
+body.single-post .site-content .site-main article.type-post .entry-thumb { display:none;}
+body.single-post .site-content .site-main article.type-post .entry-meta { display:none;}
+.post-items .entry-title { font-weight:300;}
+body.single-post .site-content .site-main .navigation .nav-links a {font-size: 22px; font-weight: 200;}
+.sidebar-fix .widget-title { font-weight:200;}
+.widget_recent_entries ul li { margin-bottom:8px; padding-bottom:8px;}
+.widget_recent_entries ul li a {font-size: 18px; font-weight: 200;}
+body.single-post .site-content .site-main article.type-post .entry-content img { margin-top:30px; margin-bottom:30px;}
+body.single-post .site-content .site-main article.type-post .gallery-item img { margin: 10px; width: 95%;}
+
+body #html5-watermark { display:none !important;}
+.play_demo_row { text-align:center; background-size:cover !important; background-position:center;}
+.play_demo_row .credal_heading { text-align:left; margin-top:6px;}
+.play_demo_row img {border: 1px solid #ddd; box-shadow: 0 0 7px #aaa;}
+.companies_logo .wpb_single_image { margin-bottom:0 !important;}
+body.page-id-366 .all_services_list { margin-top:20px;}
+
+.what-we-do-blocks .wpb_single_image img { width:300px;}
+body.page-id-213 .all_services_list { margin-top:0;}
+.advisors_list .col-md-4 { padding-left:0; padding-right:0;  margin-bottom: 60px;}
+.credal-news .container-fluid { padding-left:15px; padding-right:15px;}
+.news-wrap { border-top:1px solid #6FCBDA;}
+.advisors_list .member_designation {font-weight: 300; font-size: 16px !important; color:#82C5C8 !important;}
+.team_member_thumb { margin-bottom:20px;}
+.single-team-content { margin-top:50px; margin-bottom:50px;}
+.team_page_content .member_designation {font-weight: 300; font-size: 20px !important; color:#82C5C8 !important;}
+body.home .credal-news { margin-top:35px;}
+
+
+/******Responsive*********/
+
+@media (min-width:992px) and ( max-width:1560px) {
+	h2.vc_custom_heading {font-size: 72px !important; line-height: 95px !important;}
+	p.vc_custom_heading {font-size: 22px !important; line-height: 30px !important;}
+	body .vc_btn3-container .vc_general {padding: 2px 15px !important; font-size: 22px !important; }
+	h5.vc_custom_heading {font-size: 30px !important; line-height: 40px !important;}
+	h3.vc_custom_heading {font-size: 90px !important; }
+	.credal_heading { font-size: 60px; line-height: 60px;}
+	h4.vc_custom_heading { font-size: 60px !important; line-height: 60px !important;}
+	.board-of-directors h4.vc_custom_heading { font-size: 46px !important; line-height: 55px !important;}
+	.advisors_list .block_title {font-size: 25px;}
+	.advisors_list .block_content p {font-size: 15px; line-height:20px;}
+	.news-category ul li a { font-size:20px;}
+	.news_list .block_title { font-size:18px; line-height:25px;}
+	div.vc_custom_heading {font-size: 72px !important; font-weight: 200;}
+	.wpb_text_column p {font-size: 28px;line-height: 38px;}
+	span.play_demo {font-size: 28px;line-height: 38px;}
+	.wpb_text_column.custom_para p {font-size: 22px;line-height: 30px;}
+	.wpb_text_column.custom_para1 p {font-size: 19px;line-height: 26px;}
+	.service_content p {font-size: 22px; font-weight: 200; line-height: 30px; color: #000;}
+	h6.vc_custom_heading {font-size: 20px !important; }
+	.core-capabilities ul li { font-size: 16px;}
+	.all_services_list .block_title { font-size:26px; line-height:35px;}
+	.block_summary { font-size:15px !important; line-height:20px !important;}
+	.block_summary p { font-size:15px !important; line-height:20px !important;}
+}
+
+@media (min-width:320px) and ( max-width:767px) {
+	h2.vc_custom_heading {font-size: 32px !important; line-height: 40px !important; letter-spacing: -1px;}
+	.services-box .vc_gitem-zone .vc_gitem-post-data-source-post_title h4 {font-size: 25px; line-height: 28px;}
+	.services-box .vc_gitem-zone .vc_gitem-post-data-source-post_excerpt p {font-size: 16px; line-height: 20px;}
+	.services-box .vc_gitem-zone .vc_gitem-post-data-source-post_title h4 a:after { margin-top:-6px;}
+	p.vc_custom_heading {font-size: 14px !important; line-height: 22px !important;}
+	body .vc_btn3-container .vc_general {padding: 2px 15px !important; font-size: 16px !important; }
+	h5.vc_custom_heading {font-size: 20px !important; line-height: 30px !important;}
+	h3.vc_custom_heading {font-size: 38px !important; }
+	.credal_heading { font-size: 30px; line-height: 30px;}
+	h4.vc_custom_heading { font-size: 30px !important; line-height: 30px !important;}
+	.board-of-directors h4.vc_custom_heading { font-size: 22px !important; line-height: 26px !important;}
+	.advisors_list .block_title {font-size: 15px;}
+	.advisors_list .block_content p {font-size: 14px; line-height:20px;}
+	.news-category ul li a { font-size:15px;}
+	.news_list .block_title { font-size:14px; line-height:20px;}
+	div.vc_custom_heading {font-size: 42px !important; font-weight: 200;}
+	.wpb_text_column p {font-size: 18px;line-height: 28px;}
+	span.play_demo {font-size: 18px;line-height: 28px;}
+	.wpb_text_column.custom_para p {font-size: 15px;line-height: 25px;}
+	.wpb_text_column.custom_para1 p {font-size: 14px;line-height: 24px;}
+	.service_content p {font-size: 17px; font-weight: 200; line-height: 25px; color: #000;}
+	h6.vc_custom_heading {font-size: 16px !important; }
+	.core-capabilities ul li { font-size: 16px;}
+	.all_services_list .block_title { font-size:20px; line-height:35px;}
+	.block_summary { font-size:15px !important; line-height:20px !important;}
+	.block_summary p { font-size:15px !important; line-height:20px !important;}
+	.footer-bottom { text-align:center;}
+	.site-social { text-align:center;}
+	.footer-nav ul li { display: block; margin-right:0; margin-bottom:5px;}
+	.footer-nav ul li a { font-size:14px;}
+	
+	.navbar-header.navbar-fix { width:25%; margin-top:35px;}
+	.credal-sticky-header .navbar-header.navbar-fix { margin-top:22px;}
+	.navbar-collapse.collapse ul.nav { margin-top:20px !important; background-color: #6ecbd9; transition: none !important;}
+	.navbar-collapse.collapse ul.nav li {margin-bottom: 8px; padding-bottom: 8px; transition:none !important;}
+	body header .primary-menu .navbar-nav>li>a { color:#fff !important;}
+}
+
+@media (min-width:768px) and ( max-width:991px) {
+	.logo a img { width:120px;}
+	header .primary-menu .navbar-nav>li>a {font-size: 15px; padding-left: 5px; padding-right: 5px;}
+	h2.vc_custom_heading {font-size: 32px !important; line-height: 45px !important; letter-spacing: -1px;}
+	p.vc_custom_heading {font-size: 14px !important; line-height: 22px !important;}
+	body .vc_btn3-container .vc_general {padding: 2px 15px !important; font-size: 16px !important; }
+	h5.vc_custom_heading {font-size: 20px !important; line-height: 30px !important;}
+	h3.vc_custom_heading {font-size: 38px !important; }
+	.credal_heading { font-size: 30px; line-height: 30px;}
+	h4.vc_custom_heading {font-size: 30px !important; line-height: 30px !important;}
+	.board-of-directors h4.vc_custom_heading {font-size: 22px !important; line-height: 26px !important;}
+	.advisors_list .block_title {font-size: 15px;}
+	.advisors_list .block_content p {font-size: 14px; line-height:20px;}
+	.news-category ul li a { font-size:15px;}
+	.news_list .block_title { font-size:14px; line-height:20px;}
+	div.vc_custom_heading {font-size: 42px !important; font-weight: 200;}
+	.wpb_text_column p {font-size: 18px;line-height: 28px;}
+	span.play_demo {font-size: 18px;line-height: 28px;}
+	.wpb_text_column.custom_para p {font-size: 15px;line-height: 25px;}
+	.wpb_text_column.custom_para1 p {font-size: 14px;line-height: 24px;}
+	.service_content p {font-size: 17px; font-weight: 200; line-height: 25px; color: #000;}
+	h6.vc_custom_heading {font-size: 16px !important; }
+	.core-capabilities ul li { font-size: 16px;}
+	.all_services_list .block_title { font-size:20px; line-height:35px;}
+	.block_summary { font-size:15px !important; line-height:20px !important;}
+	.block_summary p { font-size:15px !important; line-height:20px !important;}
+}
+
+@media (min-width:320px) and (max-width:479px) {
+	body .site-branding.logo { width:75% !important; float: left !important; text-align:left !important;}
+	body .site-branding.logo img { width:100px;}
+	body .credal-sticky-header .site-branding.logo img { width:70px;}
+}
+
+@media (min-width:480px) and (max-width:767px) {
+	body .site-branding.logo { width:75% !important; float: left !important; text-align:left !important;}
+	body .site-branding.logo img { width:140px;}
+	body .credal-sticky-header .site-branding.logo img { width:100px;}
+}
+
+
+div.animate-border {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	background: #ddd;
+}
+
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+svg line {
+	stroke-width: 10;
+	stroke: #000;
+	fill: none;
+	stroke-dasharray: 200;
+	-webkit-transition: all .6s;
+	transition: transform .6s;
+}
+
+div.animate-border:hover svg line.top {
+  -webkit-transform: translateX(-400px);
+  transform: translateX(-400px);
+}
+
+div.animate-border:hover svg line.bottom {
+  -webkit-transform: translateX(400px);
+  transform: translateX(400px);
+}
+
+div.animate-border:hover svg line.left {
+  -webkit-transform: translateY(400px);
+  transform: translateY(400px);
+}
+
+div.animate-border:hover svg line.right {
+  -webkit-transform: translateY(-400px);
+  transform: translateY(-400px);
+}
+.team_member_thumbnail {    float: left;    margin-right: 25px;}
+.team_member_thumbnail img {    max-width: 361px;}
+ul.invest_img {    display: flex;    list-style: none;    margin: 0;    padding: 0;    justify-content: center;}
+ul.invest_img li {    padding-right: 70px;    text-align: center;    display: flex;    align-items: center;    justify-content: center;}
+ul.invest_img li:last-child {    padding-right: 0;}
+
+.team_page_content h4.vc_custom_heading {
+    margin-top: 0;
+    line-height: 47px !important;
+}
+.aop_block a:hover {
+    text-decoration: none;
+}
+.page-id-366 .vc_custom_heading {
+    line-height: 52px !important;
+}
+
+.page-id-366 .custom_para {
+    margin-top: 15px !important;
+    margin-left: 6px;
+}
